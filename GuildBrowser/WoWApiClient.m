@@ -23,6 +23,7 @@ static dispatch_once_t oncePredicate;
 {
     self = [super initWithBaseURL:url];
     if (!self) {
+        
         return nil;
     }
     
